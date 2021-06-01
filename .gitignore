@@ -9,4 +9,4 @@ pip-selfcheck.json
 # virtualenv
 venv/
 ENV/
-.idea/
+.idea
