@@ -3,8 +3,8 @@
 
 - Создать  базу данных `Postgresql` с названием "test_task"
 - в файле `database.py` в переменную `engine` вставить необходимые данные:
--("postgresql+psycopg2://postgres:1234@localhost/test_task")
--("postgresql+psycopg2://имя_пользователя:пароль@хост/имя_базы")
+- ("postgresql+psycopg2://postgres:1234@localhost/test_task")
+- ("postgresql+psycopg2://имя_пользователя:пароль@хост/имя_базы")
 - в командной строке ввести: `pip install -r requirements.txt`
 
 **Запуск проекта**
