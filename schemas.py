@@ -18,7 +18,7 @@ class User(BaseModel):
         # breakpoint()
         choice_list = [EnumChoice.active.value, EnumChoice.inactive.value, EnumChoice.deleted.value]
         if status_value not in choice_list:
-            raise (HTTPException(status_code=500, detail="invalid status"))
+            raise (HTTPException(status_code=500, detail="invalid status, use ('active', 'inactive', 'deleted')"))
         return status_value
 
 
