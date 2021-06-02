@@ -21,7 +21,7 @@ users = Table(
     Column("user_name", String),
     Column("email", String),
     Column("password", String),
-    Column("status", Enum("active", "inactive", "deleted", name="status"), default="active"),
+    Column("status", Enum(EnumChoice, name="status"), default="active"),
     Column("created_at", Date, default=date.today),
     Column("updated_at", Date, default=None)
 )
